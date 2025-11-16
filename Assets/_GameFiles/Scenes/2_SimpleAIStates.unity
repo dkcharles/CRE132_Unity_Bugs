@@ -358,6 +358,18 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4310240673504470219, guid: aaed951bf4145a74aa90cefd70661029, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310240673504470219, guid: aaed951bf4145a74aa90cefd70661029, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310240673504470219, guid: aaed951bf4145a74aa90cefd70661029, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4310240673504470219, guid: aaed951bf4145a74aa90cefd70661029, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.34
       objectReference: {fileID: 0}
@@ -420,6 +432,18 @@ PrefabInstance:
       propertyPath: playerPosition
       value: 
       objectReference: {fileID: 330085733}
+    - target: {fileID: 585570294891691482, guid: d997ebd9506c29a4ea498001ba08ec54, type: 3}
+      propertyPath: m_Size.x
+      value: 1.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 585570294891691482, guid: d997ebd9506c29a4ea498001ba08ec54, type: 3}
+      propertyPath: m_Size.y
+      value: 0.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 585570294891691482, guid: d997ebd9506c29a4ea498001ba08ec54, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1758712691775440927, guid: d997ebd9506c29a4ea498001ba08ec54, type: 3}
       propertyPath: m_Name
       value: SlimeBasic
@@ -480,7 +504,10 @@ PrefabInstance:
     - {fileID: 9114253334675880182, guid: d997ebd9506c29a4ea498001ba08ec54, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1758712691775440927, guid: d997ebd9506c29a4ea498001ba08ec54, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2043401331}
   m_SourcePrefab: {fileID: 100100000, guid: d997ebd9506c29a4ea498001ba08ec54, type: 3}
 --- !u!1 &1924680411
 GameObject:
@@ -608,6 +635,25 @@ MonoBehaviour:
   playerPosition: {fileID: 330085733}
   attackDistance: 8
   currentState: 0
+--- !u!1 &2043401326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1758712691775440927, guid: d997ebd9506c29a4ea498001ba08ec54, type: 3}
+  m_PrefabInstance: {fileID: 1759766817}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2043401331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043401326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e8ccaf8c57d3f4393644fceb23adae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPosition: {fileID: 330085733}
+  EnemySpeed: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
